@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "poetry_function_modeling_dashboard"
+version = "0.1.0"
+description = ""
+authors = ["Burkov Denis <wow-denis@mail.ru>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Django = "^3.2.7"
+psycopg2 = "^2.9.1"
+psycopg2-binary = "^2.9.1"
+Pillow = "^8.3.2"
+matplotlib = "^3.4.3"
+celery = "^5.1.2"
+redis-server = "^6.0.9"
+redis = "^3.5.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+gunicorn = "^20.1.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
